@@ -1,0 +1,9 @@
+.prototype-container{
+    justify-content: center;
+    padding-top:64px
+}
+
+.prototype-container img{
+    margin-bottom: -20px;
+    max-width: 920px;
+}

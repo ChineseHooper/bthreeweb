@@ -1,0 +1,30 @@
+.question-container{
+    margin: 20px 0;
+    padding: 36px 36px 36px 36px; 
+    background-color: rgba(60, 101, 177, 0.06);
+    transition-delay: 1s;
+    transition: .5s ease-in-out;
+}
+
+.question-container:hover .question-answer{
+    height: auto;
+    max-height: 100px;
+    opacity: 1;
+}
+
+.question-container .question{
+    font-size: 20px;
+    margin: 12px 0;
+}
+
+.question-container .question-answer{
+    margin-top: 0px;
+    max-height: 0;
+    opacity: 0;
+    font-size: 18px;
+    transition: .5s ease-in-out;
+}
+
+.question-list-container{
+    padding: 64px 10%;
+}

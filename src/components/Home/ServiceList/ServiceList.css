@@ -1,0 +1,62 @@
+.service-list{
+    /* add media query, flex-direction change to column */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 260px 260px;
+    row-gap: 62px;
+    column-gap: 42px;
+}
+
+.list-r{
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 30px 10px;
+}
+
+.card .icon-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.card .card-info{
+    text-align: center;
+    width: 80%;
+    margin: 60px 0;
+}
+
+.card .card-name{
+    width:80%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 36px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1080px) {
+    .card .card-name{
+        width:80%;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 36px;
+        font-size:14px;
+        font-weight: bold;
+    }
+}
+
+.card .card-btn{
+    padding: 14px 24px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3C64B1;
+    color: white;
+    border-radius: 4px;
+}

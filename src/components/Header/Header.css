@@ -1,0 +1,59 @@
+nav{
+    width: 100%;
+}
+
+.selected{
+    color:#3C64B1
+}
+
+.header-container img{
+    height: 64px;
+    position: absolute;
+    left: 70px;
+    top:50%;
+    transform: translate(0%,-50%);
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    background-color: rgba(60, 101, 177, 0.06);
+    padding: 23px 70px;
+}
+
+.header-container ul{
+    display: flex;
+    align-items: center;
+    margin-right: 130px;
+}
+
+.nav-item a{
+    margin-right: 32px;
+    font-weight: bold;
+    color: #373F41;
+}
+
+.nav-item .selected{
+    color:#3C64B1
+}
+
+.nav-item-account{
+    display: flex;
+    align-items: center;
+}
+
+.login-btn{
+    font-weight: bold;
+    color: #3C64B1;
+}
+
+.register-btn{
+    padding: 12px 18px;
+    margin-left: 20px;
+    border-radius: 4px;
+    background-color: #3C64B1;
+    font-weight: bold;
+    color: white;
+}

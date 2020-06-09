@@ -1,0 +1,35 @@
+.product-feature-list{
+    background-color: #E7EFFF;
+    padding: 62px 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 52px;
+}
+
+.product-feature{
+    align-items: center;
+}
+
+.product-feature-icon{
+    width: 62px;
+    height: 62px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-feature-txt{
+    margin-left: 14px;
+}
+
+.product-feature-txt .title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-feature-txt .description{
+    font-weight: regular;
+    font-size: 16px;
+}

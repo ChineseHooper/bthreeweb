@@ -1,0 +1,26 @@
+.homepage-feature{
+    margin: 36px 0;
+}
+
+.homepage-ft-icon{
+    width: 42px;
+    height: 42px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homepage-ft-txt{
+    width: calc(100% - 42px);
+    padding-left:24px;
+}
+
+.homepage-ft-txt .txt-title{
+    font-size: 26px;
+}
+
+.homepage-ft-txt .txt-description{
+    font-size: 18px;
+    color: #737B7D;
+    margin-top: 12px;
+}

@@ -1,0 +1,62 @@
+.user-flow-container{
+    padding: 0 10%;
+    flex-direction: column;
+}
+
+.user-flow-top{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.uf-card-container{
+    margin: 0;
+    width: 31%;
+    padding: 32px;
+}
+
+.uf-figure{
+    min-width: 80%;
+    height: 300px;
+    margin: 24px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.uf-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.uf-card-container .uf-title,
+.uf-card-container .description{
+    text-align: center;
+}
+
+.uf-card-container .description{
+    margin: 64px 0;
+}
+
+.get-start-container{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 46px 0;
+    padding: 42px 64px;
+}
+
+.get-start-container .txt-title{
+    font-size: 32px;
+    margin: 4px 0;
+}
+
+.get-start-container .btn-body{
+    background-color: #3C64B1;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 24px;
+}

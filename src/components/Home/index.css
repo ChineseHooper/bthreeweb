@@ -1,0 +1,201 @@
+.homepage{
+    width: 100%;
+    overflow: hidden;
+}
+
+.button{    
+    padding: 14px 28px;
+    background-color: #3C64B1;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.banner,
+.feature,
+.service
+{
+    padding: 0 10%;
+}
+
+.section-title{
+    text-align: center;
+    font-family: Muli;
+}
+
+.section-title h1{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.section-title p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 24px;
+    color: #737B7D;
+}
+
+/* feature section */
+.feature{
+    padding: 0 10%;
+}
+
+.feature-list-container{
+    padding: 0 0;
+}
+
+.list-content,
+.list-background{
+    width: 50%;
+    padding: 64px 0;
+}
+
+.list-background{
+    background-image: url('../../img/feature-bg.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+/* demo section */
+.demo{
+    padding: 64px 0
+}
+.keywords-container{
+    margin-top: 64px;
+    padding: 86px 10%;
+    justify-content: space-between;
+    background-color: rgba(180, 201, 250, 0.2);
+}
+
+.keyword-item{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.keyword-item img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.keyword-txt{
+    margin-top: 24px;
+}
+
+/* Sevice & Contact Section - Application We Support */
+.service-list{
+    margin-top: 64px;
+}
+
+.service-list .card{
+    margin: 0;
+}
+
+.service,
+.contact{
+    padding: 64px 10%;
+}
+
+.contact-form,
+.contact-figure{
+    width: 50%;
+}
+
+.figure-img{
+    height: 70%;
+    margin-top: 64px;
+    background-image: url('../../img/contact-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Team */
+
+.team{
+    padding: 64px 0;
+}
+
+
+/* footer */
+.footer{
+    justify-content: space-between;
+    padding: 56px 10%;
+}
+
+.footer a{
+    color: black;
+}
+
+.company-info{
+    align-items: center;
+}
+
+.company-info .logo{
+    width: 200px;
+    height: 200px;
+    background-image: url("../../img/logo.png");
+    background-size: contain;
+}
+
+.company-info > div{
+    width: calc(100% - 200px)
+}
+
+.intro,
+.products,
+.social-media{
+    margin: 0 24px;
+}
+
+.intro .ft-logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FC8A21;
+    margin-bottom: 12px;
+}
+
+.ft-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.ft-link{
+    font-size: 14px;
+    margin: 16px 0;
+}
+
+.ft-social-media{
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 6px;
+}
+
+.mail{
+    background-image: url('../../img/Mail.png');
+}
+.facebook{
+    background-image: url('../../img/Facebook.png');
+}
+.linkedin{
+    background-image: url('../../img/Twitter.png');
+}
+.twitter{
+    background-image: url('../../img/Linkedin.png');
+}
+
+.copy-right{
+    margin-top: 72px;
+}
